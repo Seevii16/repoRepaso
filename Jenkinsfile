@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        mail(subject: 'Ejemplo', body: 'Ejemplo', from: 'EjemploOwO', to: 'Ejemplo2OwO', bcc: 'Ejemplo1', cc: 'Ejemplo2')
+        mail(subject: 'Ejemplo', body: 'Ejemplo', from: 'EjemploOwO@jojo.com', to: 'Ejemplo2OwO@jojo.com', bcc: 'Ejemplo1', cc: 'Ejemplo2')
       }
     }
 
